@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+}
+body{
+    background: #BE2DD2;
+    background: radial-gradient(at left bottom, #BE2DD2, #7AD5F6);
+}
+.by_up{
+    margin-top: -60px;
+    margin-left: -10px;
+    width: 102%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 2.6px;
+    text-align: center;
+    font-size: 40px;
+}
+#canv{
+    font-size: 45px;
+}
+.diogram{
+    width: 75%;
+    height: 25%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    width: 75%;
+    height: 25%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    height: 75%;
+    width: 125px;
+    background-color: rgba(122, 213, 246, 0.5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin:15px;
+    font-size: 40px;
+    text-align: center;
+}
+.blue{
+    background-color: rgba(122, 213, 246, 0.5);;
+}
+.red{
+    background-color: rgba(255, 20, 147, 0.5);
+}
+.gren{
+    background-color: rgba(127, 255, 212, 0.5);
+}
+.many{
+    width: 75%;
+    height: 25%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    margin-left: 25%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 65px;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+input {
+    width: 300px;
+    height: 40px;
+}
+button {
+    width: 200px;
+    height: 50px;
+}
+.int {
+    width: 75%;
+    height: 75px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.log{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+       position: absolute;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="ss_style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="by_up"><h1>SpendSmart</h1></div>
+<div class="diogram">
+    <div id="canv"></div>
+</div>
+<div class="many">
+    <div class="container">
+        <div class="input-container">
+            <br>
+            <label for="budget">Enter your budget:</label>
+            <input type="number" id="budget" placeholder="Введите сумму">
+            <button onclick="submitBudget()">set budget</button>
+        </div>
+
+        <div class="input-container">
+
+            <label for="expenses">Enter the amount of expenses:</label>
+            <input type="number" id="expenses" placeholder="Введите сумму">
+            <button onclick="submitExpenses()">set expenses</button>
+        </div>
+        <div class="chart-container" id="chartContainer"></div>
+    </div>
+</div>
+<div class="info"><h1>SpendSmart is your reliable companion in financial management, providing unique and intuitive tools for effective income and expense management. Whether you are a finance professional or a beginner in the world of budgeting, SpendSmart will help you bring order to your finances and achieve your financial goals.</h1></div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="ss_log.js"></script>
+</html>
